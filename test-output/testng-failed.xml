@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testScenarios.NewTest">
+      <class name="testScenarios.TS_03_LostYourPassword">
         <methods>
           <include name="f"/>
         </methods>
-      </class> <!-- testScenarios.NewTest -->
+      </class> <!-- testScenarios.TS_03_LostYourPassword -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
