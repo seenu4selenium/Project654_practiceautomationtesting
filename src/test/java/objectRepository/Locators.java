@@ -6,7 +6,7 @@ public class Locators {
 
 	// Login locators
 	public final By PracticeSite_Menu = By.linkText("Practice Site");
-	public final By MyAccount_Menu = By.linkText("My Account123");
+	public final By MyAccount_Menu = By.linkText("My Account");
 	public final By LoginPage_UserName = By.id("username");
 	public final By LoginPage_Password = By.name("password");
 	public final By LoginPage_LoginButton = By.name("login");
@@ -19,8 +19,8 @@ public class Locators {
 	public final By lostPassword_UserName1 = By.xpath("//*[@id=\"user_login\"]");
 	public final By lostPassword_ResetButton1 = By.xpath("//*[@id=\"page-36\"]/div/div[1]/form/p[3]/input[2]");
 	public final By passwordReset = By.xpath("//*[@id=\"page-36\"]/div/div[1]/div");
+	
 	//lost your password 
-
 	public final By myAccount = By.xpath("//*[@id=\"menu-item-50\"]/a");
 	public final By lostYourPassword = By.xpath("//*[@id=\"customer_login\"]/div[1]/form/p[4]/a");
 	public final By lostPassword_UserName = By.xpath("//*[@id=\"user_login\"]");

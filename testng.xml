@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MySuite1.2">
+  <test thread-count="5" name="MyTestResults1.2">
+    <classes>
+      <class name="testScenarios.TS_01_Rigister"/>
+      <class name="testScenarios.TS_02_Login"/>
+      <class name="testScenarios.TS_03_LostYourPassword"/>
+      <class name="testScenarios.TS_04_shop_any_product_as_a_Guest"/>
+      <class name="testScenarios.XpathDemo"></class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

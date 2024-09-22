@@ -2,6 +2,8 @@ package testScenarios;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
 
 import objectRepository.Locators;
@@ -12,7 +14,12 @@ public class TS_03_LostYourPassword {
 	@Test
 	public void f() throws Exception {
 		 WebDriver driver;
-	      driver = new ChromeDriver();
+		 
+	      //driver = new ChromeDriver();
+	      driver = new FirefoxDriver();
+	      //driver = new EdgeDriver();
+	      
+	      
 	      driver.manage().window().maximize();
 	      Thread.sleep(5000);
 	      driver.get("https://practice.automationtesting.in");

@@ -1,17 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-13T21:10:38 EDT" name="Default suite" finished-at="2024-09-13T21:11:00 EDT" duration-ms="21907">
+  <suite started-at="2024-09-21T19:38:42 MDT" name="CBT_Suite" finished-at="2024-09-21T19:40:00 MDT" duration-ms="77425">
     <groups>
     </groups>
-    <test started-at="2024-09-13T21:10:38 EDT" name="Default test" finished-at="2024-09-13T21:11:00 EDT" duration-ms="21907">
-      <class name="testScenarios.TS_03_LostYourPassword">
-        <test-method signature="f()[pri:0, instance:testScenarios.TS_03_LostYourPassword@2034b64c]" started-at="2024-09-13T21:10:38 EDT" name="f" finished-at="2024-09-13T21:11:00 EDT" duration-ms="21833" status="PASS">
+    <test started-at="2024-09-21T19:38:42 MDT" name="ChromeTestResults" finished-at="2024-09-21T19:39:08 MDT" duration-ms="25919">
+      <class name="testScenarios.CrossBrowserTesting_LostYourPassword">
+        <test-method signature="f(java.lang.String)[pri:0, instance:testScenarios.CrossBrowserTesting_LostYourPassword@4802796d]" started-at="2024-09-21T19:38:42 MDT" name="f" finished-at="2024-09-21T19:39:08 MDT" duration-ms="25859" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-      </class> <!-- testScenarios.TS_03_LostYourPassword -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- testScenarios.CrossBrowserTesting_LostYourPassword -->
+    </test> <!-- ChromeTestResults -->
+    <test started-at="2024-09-21T19:39:08 MDT" name="EdgeTestResults" finished-at="2024-09-21T19:39:33 MDT" duration-ms="25327">
+      <class name="testScenarios.CrossBrowserTesting_LostYourPassword">
+        <test-method signature="f(java.lang.String)[pri:0, instance:testScenarios.CrossBrowserTesting_LostYourPassword@40005471]" started-at="2024-09-21T19:39:08 MDT" name="f" finished-at="2024-09-21T19:39:33 MDT" duration-ms="25319" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- testScenarios.CrossBrowserTesting_LostYourPassword -->
+    </test> <!-- EdgeTestResults -->
+    <test started-at="2024-09-21T19:39:33 MDT" name="FirefoxTestResults" finished-at="2024-09-21T19:40:00 MDT" duration-ms="26074">
+      <class name="testScenarios.CrossBrowserTesting_LostYourPassword">
+        <test-method signature="f(java.lang.String)[pri:0, instance:testScenarios.CrossBrowserTesting_LostYourPassword@367ffa75]" started-at="2024-09-21T19:39:33 MDT" name="f" finished-at="2024-09-21T19:40:00 MDT" duration-ms="26066" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- testScenarios.CrossBrowserTesting_LostYourPassword -->
+    </test> <!-- FirefoxTestResults -->
+  </suite> <!-- CBT_Suite -->
 </testng-results>
